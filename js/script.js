@@ -20,10 +20,10 @@ if(datiValidi){
 if(datiValidi){
   if(userAge < 18){
     discount = 0.2;
-    document.getElementById('sconto').innerHTML=`&#8594;  Puoi beneficiare di uno sconto del ${discount*100}%!`
+    document.getElementById('sconto').innerHTML=`&#8594;  Puoi beneficiare di uno sconto del <strong>${discount*100}% !</strong>`
   }else if(userAge >= 65){
     discount = 0.4;
-    document.getElementById('sconto').innerHTML=`&#8594; Puoi beneficiare di uno sconto del ${discount*100}% !`
+    document.getElementById('sconto').innerHTML=`&#8594; Puoi beneficiare di uno sconto del <strong>${discount*100}% !</strong>`
   }else{
     discount = 0;
   } 
