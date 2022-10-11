@@ -1,8 +1,9 @@
 body{
-  background-image: url('https://cdn.pixabay.com/photo/2012/10/25/23/18/train-62849_960_720.jpg');
+  background-image: url('https://img0.oastatic.com/img2/34078656/max/glacier-express-im-albulatal.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:cover;
+  background-position: center;
 }
 
 .container{
@@ -15,7 +16,7 @@ body{
 }
 
 h1{
-  background-color:rgb(143,36,28);
+  background-color:rgb(144,0,25);
   color:white;
 }
 
@@ -23,7 +24,7 @@ h1{
   font-size:80%;
 }
 h4{
-  color:rgb(143,36,28);
+  color:rgb(144,0,25);
 }
 
 ul{
