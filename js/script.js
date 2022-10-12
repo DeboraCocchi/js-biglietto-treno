@@ -2,6 +2,7 @@ const generaBigl = document.getElementById('data-read');
 
 document.getElementById('reset-fields').addEventListener('click', function(){
   document.getElementById('totalprice').innerHTML  = ``;
+  document.getElementById('sconto').innerHTML  = ``;
 })
 
 generaBigl.addEventListener('click', function(){
