@@ -4,8 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css' integrity='sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==' crossorigin='anonymous'/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css' integrity='sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==' crossorigin='anonymous'/>
   <link rel="stylesheet" href="css/style.css">
   <title>Biglietteria Online</title>
 </head>
@@ -15,14 +19,17 @@
   <div class="container-fluid">
       <form action="#" class="row p-0 m-0 justify-content-evenly  dc-row">
         
-        <input type="text" id="user-name" placeholder="Nome" class="m-2 col-5">
+        <input type="text" id="user-name" placeholder="Nome" class="m-2 col-5"required>
         
-        <input type="text" id="user-surname" placeholder="Cognome" class="m-2 col-5 offset-2">
+        <input type="text" id="user-surname" placeholder="Cognome" class="m-2 col-5 offset-2"required>
     
-        <input type="number" id="eta" placeholder="Età" class="m-2 col-3">
-        <input type="number" id="km" placeholder="Km che devi percorrere" class="m-2 col-7 offset-1">
+        <input type="number" id="eta" placeholder="Età" class="m-2 col-3" required>
+        <input type="number" id="km" placeholder="Km che devi percorrere" class="m-2 col-7 offset-1" required>
+
+        <button class="btn dc-btn m-auto col-5 m-auto my-3 d-block p-2" id="data-read">&#xF81C; Genera il tuo biglietto</button>
+        <input type="reset" value="&#xF116; Ripulisci i campi" class="dc-btn m-auto col-5 m-auto my-3 d-block p-2" id="reset-fields">
       </form>
-      <button class="btn dc-btn m-auto col-5 m-auto my-3 d-block p-2" id="data-read"><i class="bi bi-train-front-fill me-2"></i> Genera il tuo biglietto</button>
+      
     
     <div><span id="sconto"></span></div>
   
